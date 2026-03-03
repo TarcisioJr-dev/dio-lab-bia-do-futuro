@@ -1,24 +1,21 @@
-# Código da Aplicação
+# Passo a Passo de Execução
 
 Esta pasta contém o código do seu agente financeiro.
 
-## Estrutura Sugerida
+## Setup do Ollama
 
 ```
-src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+#1. Instalar Ollama (ollama.com)
+#2. Baixar um modelo leve
+ollama pull gpt-oss
+
+#3. Testar se funciona
+ollama run gpt-oss "Olá!"
 ```
 
-## Exemplo de requirements.txt
+## Código completo
 
-```
-streamlit
-openai
-python-dotenv
-```
+Todo o código fonte está no arquivo `app.py`.
 
 ## Como Rodar
 
@@ -27,5 +24,5 @@ python-dotenv
 pip install -r requirements.txt
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run ./src/app.py
 ```
