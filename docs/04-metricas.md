@@ -48,12 +48,25 @@ Crie testes simples para validar seu agente:
 
 ---
 
+## Formulário de Feedback
+
+Use com os participantes do teste:
+
+| Métrica | Pergunta | Nota (1-5) |
+|---------|----------|------------|
+| Assertividade | "A resposta respondeu sua pergunta?" | 5 |
+| Segurança | "As informações pareceram confiáveis?" | 5 |
+| Coerência | "A linguagem foi clara e fácil de entender?" | 5 |
+
+
 ## Resultados
 
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Ele aderiu muito bem às regras estabelecidas tanto quanto as de que deve fazer quanto as de que não deve.
+- Quando pedi para me sugerir um investimento em passou um cálculo sobre a poupança, sem me sugerir outros tipos de investimento.
+- Quando perguntei sobre a previsão do tempo, assim como no exemplo disse que era especialista em finanças e não podia me falar sobre o tempo.
 
 **O que pode melhorar:**
 - [Liste aqui]
